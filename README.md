@@ -21,6 +21,10 @@ cd frontend
 npm i
 ```
 
+```bash
+npm run dev
+```
+
 # Backend
 
 ```bash
@@ -30,4 +34,8 @@ cd backend
 ```bash
 #recommended to create a virtual env
 pip install motor fastapi pydantic
+```
+
+```bash
+uvicorn app:app --reload
 ```
